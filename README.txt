@@ -1,3 +1,8 @@
+# spaCY NLP example from my book Loving Common Lisp, The Saavy Programmer's Secret Weapon
+
+https://leanpub.com/lovinglisp
+
+
 # install Python library 'spacystub' - one time
 
 cd PYTHON_SPACY_SETUP_install/spacystub
