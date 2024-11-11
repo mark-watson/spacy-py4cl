@@ -7,7 +7,7 @@ https://leanpub.com/lovinglisp
 
 Thanks to Markus Klink for notes for using a newer version of spacCY
 
-## THIS IS ONLY TESTED ON macOS 15
+## THIS IS ONLY TESTED ON macOS 15!
 
 ### Installation:
 
