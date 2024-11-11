@@ -1,14 +1,31 @@
-# spaCY NLP example from my book Loving Common Lisp, The Saavy Programmer's Secret Weapon
+# spaCY NLP example from my book "Loving Common Lisp, The Saavy Programmer's Secret Weapon"
 
 https://leanpub.com/lovinglisp
 
 
-# install Python library 'spacystub' - one time
+## install Python library 'spacystub' - one time:
 
-cd PYTHON_SPACY_SETUP_install/spacystub
-python setup.py install
+Thanks to Markus Klink for notes for using a newer version of spacCY
 
-# running 
+## THIS IS ONLY TESTED ON macOS 15
+
+### Installation:
+
+As of November 2024, the only way I can run this example on my M2 Mac is in conda:
+
+install miniconda: https://docs.anaconda.com/miniconda/miniconda-other-installer-links/
+
+export PATH=/Users/markw/bin/miniconda3/bin/:$PATH
+conda install -c conda-forge spacy
+python -m spacy download en_core_web_sm
+
+cd PYTHON_SPACY_SETUP_install
+
+pip install -e spacystub
+cd ..
+
+
+## running 
 try:
 
 ````
